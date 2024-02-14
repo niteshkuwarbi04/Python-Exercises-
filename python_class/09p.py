@@ -1,24 +1,23 @@
 '''
 9. Write a Python class named Student with two attributes student_name, marks. Modify the attribute values of the said 
-   class and print the original and modified values of the said attributes'''
+   class and print the original and modified values of the said attributes.'''
 
-class Student:
-    def __init__(self, student_name, marks):
-        self.student_name = student_name
+class student:
+    def __init__(self,std_name,marks):
+        self.std_name = std_name
         self.marks = marks
 
-# Creatimg an instance of the Student class
-student_instance = Student("Nitesh Kuwarbi", 75)
+std_instance = student('Vivek Singh', 70)
 
-print("Original values:")
-print("Student Name:", student_instance.student_name)
-print("Marks:", student_instance.marks)
+print("Original Values")
+print("Student Name: ", std_instance.std_name)
+print("Student Marks: ", std_instance.marks)
 
 # Modifying attribute values
-student_instance.student_name = "Nitesh Kuwarbi"
-student_instance.marks = 85
+std_instance.std_name = "Vivek Singh Rawat"
+std_instance.marks = 80
 
 # Print modified values
 print("\nModified values:")
-print("Student Name:", student_instance.student_name)
-print("Marks:", student_instance.marks)
+print("Student Name:", std_instance.std_name)
+print("Marks:", std_instance.marks)

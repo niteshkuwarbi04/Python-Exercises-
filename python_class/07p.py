@@ -9,7 +9,7 @@ class Student:
         self.student_class = student_class
 
 # Creating an instance of the Student class
-student_instance = Student(1, "John Doe", "Grade 10")
+student_instance = Student(1, "Vivek Singh", "BCA")
 
 # This will display the type of the Student class
 print("Type of Student class:", type(Student))

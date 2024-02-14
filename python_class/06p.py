@@ -3,17 +3,17 @@
    argument student_name or student_class the function will print the student name and class.'''
 
 def student_data(student_id, student_name=None, student_class=None):
-    print(f"Student ID: {student_id}")
+    print("Student ID:", student_id)
     
     if student_name is not None:
-        print(f"Student Name: {student_name}")
-        
+        print("Student Name:", student_name)
+    
     if student_class is not None:
-        print(f"Student Class: {student_class}")
+        print("Student Class:", student_class)
 
-# Example usage: 
-# If you only want to print ID:
-student_data(12345)
+# Example usage:
+student_data(123)
+student_data(456, student_name="Vivek Singh")
+student_data(789, student_class="Mathematics")
+student_data(101, student_name="Akanksha Joshi", student_class="Computer Science")
 
-# If you want to print ID, Name, and Class:
-student_data(67890, student_name="John Doe", student_class="Grade 10")
